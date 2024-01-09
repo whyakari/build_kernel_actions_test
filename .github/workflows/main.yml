@@ -12,11 +12,20 @@ jobs:
         uses: whyakari/kernel_build_action@v1
         with:
           kernel-url: whyakari/android_kernel_xiaomi_ginkgo
+          kernel-dir: ginkgo
           branch: fourteen
           config: moe_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
           python-2.7: true
-          android-version: 12
+          ksu: true
+          ksu-version: main
+          android-version: 13
           aosp-clang-version: r383902
+          python-27: true
+          disable-lto: false
+          overlayfs: true
+          lxc: false
+          lxc-patch: false
+          anykernel3: true
