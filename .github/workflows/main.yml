@@ -14,7 +14,7 @@ jobs:
           kernel-url: whyakari/android_kernel_xiaomi_ginkgo
           kernel-dir: ginkgo
           branch: fourteen
-          config: moe_defconfig
+          config: vendor/moe_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
