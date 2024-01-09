@@ -22,7 +22,7 @@ jobs:
           ksu: true
           ksu-version: main
           android-version: 13
-          aosp-clang-version: r383902
+          aosp-clang-version: r487747c
           python-27: true
           disable-lto: false
           overlayfs: true
