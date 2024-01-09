@@ -19,11 +19,12 @@ jobs:
           aosp-gcc: true
           aosp-clang: true
           python-2.7: true
-          ksu: true
-          ksu-version: main
+          #ksu: true
+          #ksu-version: main
           
           # enable hooks and patch in kernels non-gki
           ksu_non_gki: true
+          ksu-version: main
           
           android-version: 14
           aosp-clang-version: r487747c
