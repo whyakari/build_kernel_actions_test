@@ -23,8 +23,8 @@ jobs:
           #ksu-version: main
           
           # enable hooks and patch in kernels non-gki
-          ksu_non_gki: true
-          ksu-version: main
+          #ksu_non_gki: true
+          #ksu-version: main
           
           android-version: 14
           aosp-clang-version: r487747c
