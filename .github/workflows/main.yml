@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Build
-        uses: whyakari/kernel_build_action@v2
+        uses: whyakari/kernel_build_action@v3
         with:
           kernel-url: whyakari/android_kernel_xiaomi_ginkgo
           kernel-dir: ginkgo
